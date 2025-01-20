@@ -40,6 +40,4 @@ public class Patient {
         System.out.println("Is Patient: " + patient2.isPatient(patient2));
         System.out.println("Total Patients: " + Patient.getTotalPatients());
     }
-
-    
 }
