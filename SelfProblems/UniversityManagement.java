@@ -12,7 +12,7 @@ class Course {
         this.courseCode = courseCode;
         this.enrolledStudents = new ArrayList<>();
     }
-
+    // Method to add a student to the course
     public void addStudent(Student student) {
         enrolledStudents.add(student);
     }

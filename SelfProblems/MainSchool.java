@@ -2,7 +2,7 @@
 package SelfProblems;
 
 import java.util.ArrayList;
-
+// create a class School with a field name of type String
 class School {
     private String name;
     ArrayList<Student> students;
@@ -15,15 +15,15 @@ class School {
     public String getName() {
         return this.name;
     }
-
+    // create a method addStudent which takes a Student object as an argument and adds it to the list of students
     public void addStudent(Student s) {
         this.students.add(s);
     }
-
+    // create a method removeStudent which takes a Student object as an argument and removes it from the list of students
     public void removeStudent(Student s) {
         this.students.remove(s);
     }
-
+    // create a method displayAll which takes a Course object as an argument and displays the name of the school, the list of students, and the course details
     public void displayAll(Course c) {
         System.out.println("School Name: " + this.name);
         System.out.println("Students: " + this.students);
@@ -75,7 +75,7 @@ class Student {
     public void setCourses(ArrayList<Course> courses) {
         this.courses = courses;
     }
-
+    // create a method displayStudents which displays the name, roll number, and courses of the student
     public void displayStudents() {
         System.out.println("Student Name: " + this.name);
         System.out.println("Student Roll Number: " + this.rollNumber);
@@ -118,6 +118,7 @@ class Course {
     public void setCourses(ArrayList<Student> students) {
         this.students = students;
     }
+    // create a method displayCourseWithStudents which displays the course name and the list of students enrolled in the course
     public void displayCourseWithStudents(){
         System.out.println("Course Name: " + this.courseName);
         System.out.println("Students in this course: ");

@@ -1,5 +1,5 @@
 package SelfProblems;
-
+// create a class Faculty with a field name of type String
 class Faculty{
     private String name;
     public String getName(){
@@ -10,6 +10,7 @@ class Faculty{
         System.out.println("Faculty created: " + this.name);
     }
 }
+// create a class Department with a field name of type String and a field faculties of type Faculty[]
 class Department{
     private String name;
     public String getName(){
@@ -23,6 +24,7 @@ class Department{
         }
     }
 }
+// create a class University with a field departments of type Department[]
 public class University{
     private Department[] departments;
     public University(Department[] departments){
