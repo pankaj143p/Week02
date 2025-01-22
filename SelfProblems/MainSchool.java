@@ -135,7 +135,6 @@ public class MainSchool {
         Student st3 = new Student("Rahul", "AL205");
         Course c1 = new Course("Java");
         Course c2 = new Course("Python");
-        Course c3 = new Course("C++");
         c1.addStudent(st1);
         c1.addStudent(st2);
         st1.addCourse(c1);
@@ -147,6 +146,5 @@ public class MainSchool {
         sc1.addStudent(st2);
         sc1.addStudent(st3);
         sc1.displayAll(c1);
-
     }
 }
