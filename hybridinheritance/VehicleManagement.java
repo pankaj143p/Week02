@@ -7,7 +7,7 @@ Tasks:
 
 Goal: Use hybrid inheritance by having PetrolVehicle implement both Vehicle and Refuelable, demonstrating how Java interfaces allow adding multiple behaviors.
 */
-package com.inheritance.hybridinheritance;
+package hybridinheritance;
 
 import java.sql.Ref;
 

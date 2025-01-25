@@ -8,7 +8,7 @@ Tasks:
 Goal: Practice hybrid inheritance by combining inheritance and interfaces, giving multiple behaviors to the same objects.
 */
 
-package com.inheritance.hybridinheritance;
+package hybridinheritance;
 
 class Person{
 //    Define a superclass Person with attributes like name and id.

@@ -1,4 +1,4 @@
-package AssistedProblems;
+package assistedProblems;
 // create a Animal class with some attributes
 class Animal{
      String name;

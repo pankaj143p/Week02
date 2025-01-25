@@ -1,4 +1,4 @@
-package AssistedProblems;
+package assistedProblems;
 /*
 Employee Management System
 Description: Create an Employee hierarchy for different employee types such as Manager,

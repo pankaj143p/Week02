@@ -8,7 +8,7 @@ Tasks:
 Goal: Demonstrate hierarchical inheritance by modeling different roles in a school, each with shared and unique characteristics.
 */
 
-package com.inheritance.hierarchicalinheritance;
+package hierarchicalinheritance;
 
 //Define a superclass Person with common attributes like name and age.
 class Person{

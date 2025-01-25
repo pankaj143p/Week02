@@ -1,4 +1,4 @@
-package AssistedProblems;
+package assistedProblems;
 class Vehicle{
     int maxSpeed;
     String fuelType;

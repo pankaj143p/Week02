@@ -7,7 +7,7 @@ Tasks:
 
 Goal: Explore hierarchical inheritance, demonstrating how each subclass can have unique attributes while inheriting from a shared superclass.
 */
-package com.inheritance.hierarchicalinheritance;
+package hierarchicalinheritance;
 
 class BankAccount{
 //    Define a base class BankAccount with attributes like accountNumber and balance.

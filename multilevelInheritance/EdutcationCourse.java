@@ -7,7 +7,7 @@ Tasks:
 
 Goal: Demonstrate how each level of inheritance builds on the previous, adding complexity to the system.
 */
-package com.inheritance.multipleinheritance;
+package multilevelInheritance;
 
 class Course{
 //    Define a superclass Course with attributes like courseName and duration.

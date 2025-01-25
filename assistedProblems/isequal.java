@@ -1,4 +1,4 @@
-package AssistedProblems;
+package assistedProblems;
 
 public class isequal {
     public static int rev(int num){
