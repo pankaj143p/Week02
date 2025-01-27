@@ -1,6 +1,4 @@
-
 package src.com.problems.hospital;
-
 // Main class to demonstrate Hospital Patient Management System
 public class HospitalPatientManagementSystem {
     public static void main(String[] args) {
